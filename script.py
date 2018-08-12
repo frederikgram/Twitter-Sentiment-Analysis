@@ -66,7 +66,7 @@ def generate_featureset(text):
 def create_classifier(featx):
     """ Creates a NaiveBayes Classifier from the NLTK library, and trains it on sample tweets from the NLTK Corpus"""
 
-     global classifier
+    global classifier
     
     negfeats = [(featx(t), "neg") for t in nltk.corpus.twitter_samples.strings("negative_tweets.json")]
     posfeats = [(featx(t), "pos") for t in nltk.corpus.twitter_samples.strings("positive_tweets.json")]
