@@ -22,7 +22,6 @@ def generate_search_results(query):
 def load_classifier():
   """ Unpickle and load classifier from standard path """
   
-  
     global classifier
 
     with open('classifier.pickle', 'rb') as f:
