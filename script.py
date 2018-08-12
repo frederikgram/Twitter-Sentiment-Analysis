@@ -109,7 +109,7 @@ if __name__ == "__main__":
 
     if os.path.isfile('classifier.pickle'):
         load_classifier()
-        analyze(generate_search_results(arg))
     else:
         create_classifier(generate_featureset)
-        analyze(generate_search_results(arg))
+    
+    analyze(generate_search_results(arg))
