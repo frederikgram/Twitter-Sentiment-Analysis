@@ -2,7 +2,8 @@
 # About
 
     Return a sentiment value from a given string, Based on the 200 most recents tweets containing it.
-    Done by using a Naive Bayes Machine Learning Classifier, and training it on the premade NLTK twitter samples set.
+    Done by using a Naive Bayes Machine Learning Classifier,
+    and training it on the premade NLTK twitter samples set.
 
 
 # Requirements
